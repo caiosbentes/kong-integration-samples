@@ -1,6 +1,6 @@
 FROM kong:latest
 MAINTAINER Nicolas Carlier <nicolas.carlier@worldline.com>
-
+USER root
 # Kong install dir
 ENV KONG_HOME /usr/local/share/lua/5.1/kong
 
